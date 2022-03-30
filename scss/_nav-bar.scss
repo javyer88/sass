@@ -1,0 +1,34 @@
+.botonera{
+	background-color: $mainColor;
+	padding: 5px  10px;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: auto;
+	width: 100%;
+
+	img{
+		width: $w-100;
+	}
+
+	ul{
+		display: flex;
+
+		li{
+			list-style: none;
+			a{
+				font-family: $fontMain;
+				color: black;
+				font-size: $textSm;
+				text-decoration: none;
+				&:hover{
+					color: $keyColor
+				}
+
+			}
+		}
+	}
+
+}
